@@ -25,6 +25,8 @@ public class Array {
     }
 
     public void printArr(){
+        if(this.arr.isEmpty()) return;
+
         for(int i = 0; i < this.arr.size(); i++){
             System.out.println(this.arr.get(i));
         }
